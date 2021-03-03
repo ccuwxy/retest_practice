@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #define PI 3.14159265
 int main()
 {
@@ -13,11 +13,11 @@ int main()
 	v = 4.0 / 3 * PI * r * r * r;
 	vv = s * h;
 
-	printf("Ô²ÖÜ³¤:%.2f\n",l);
-	printf("Ô²Ãæ»ı:%.2f\n", s);
-	printf("Ô²Çò±íÃæ»ı:%.2f\n", ss);
-	printf("Ô²ÇòÌå»ı:%.2f\n", v);
-	printf("Ô²ÖùÌå»ı:%.2f", vv);
+	printf("åœ†å‘¨é•¿:%.2f\n",l);
+	printf("åœ†é¢ç§¯:%.2f\n", s);
+	printf("åœ†çƒè¡¨é¢ç§¯:%.2f\n", ss);
+	printf("åœ†çƒä½“ç§¯:%.2f\n", v);
+	printf("åœ†æŸ±ä½“ç§¯:%.2f", vv);
 
 	return 0;
 }
