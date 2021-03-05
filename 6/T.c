@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
@@ -23,10 +24,16 @@ int main()
 	int x, y, z;
 	scanf("%d%d%d", &x, &y, &z);
 	printf("%d", x + y + z);
-	int a = b = c = 5;*/
+	int a = b = c = 5;
 	char ch = '\xff';
 	float f = 1.2;
 	++f;
-	printf("%f", f);
+	printf("%f", f);*/
+	char str1[10];
+	char str2[10];
+	gets(str1);
+	gets(str2);
+	puts(strupr(str1));
+	puts(strlwr(str2));
 	return 0;
 }
