@@ -1,5 +1,6 @@
 #include<stdio.h>
-
+#define IBM_PC
+#define C R  045
 void num()
 {
 	extern int x, y;
