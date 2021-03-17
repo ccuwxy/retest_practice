@@ -2,6 +2,8 @@
 #define LETTER 0
 main()
 {
+	char a = '\a';
+	printf("%c", a);
 	char str[20] = "C language", c;
 	int i = 0;
 	while ((c = str[i]) != '\0')
