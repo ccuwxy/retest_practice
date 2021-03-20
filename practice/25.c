@@ -21,8 +21,10 @@ struct bit
 };
 int main()
 {
+	int a[3] = { 2 };
 	struct bit* p;
 	struct bit b;
+
 	printf("%d", sizeof(b));
 	unsigned int modeword;
 	printf("Enter the mode word(HEX):");
